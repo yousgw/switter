@@ -27,6 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3eb3cd6e-ebe1-47db-8f84-e2fa38668036" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test-json.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/test-json.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1ijItdA0OkYweplEFpi9k00JAAP" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -57,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -67,6 +75,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,9 +110,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="433" y="0" key="#GOPATH/0.0.1280.680@0.0.1280.680" timestamp="1603116448096" />
-    <state x="1220" y="287" key="FileChooserDialogImpl" timestamp="1602418369024">
+    <state x="1220" y="287" key="FileChooserDialogImpl" timestamp="1603116961543">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1220" y="287" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602418369023" />
+    <state x="1220" y="287" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603116961543" />
+    <state x="468" y="170" key="SettingsEditor" timestamp="1603116976256">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="468" y="170" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603116976256" />
   </component>
 </project>
