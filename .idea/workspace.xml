@@ -120,13 +120,15 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604845092696" />
-    <state x="1220" y="287" key="FileChooserDialogImpl" timestamp="1603116961543">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="813" y="186" key="FileChooserDialogImpl" timestamp="1604894204546">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="813" y="186" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604894204546" />
     <state x="1220" y="287" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603116961543" />
-    <state x="468" y="170" key="SettingsEditor" timestamp="1603116976256">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="284" y="0" key="SettingsEditor" timestamp="1604894209780">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="284" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1604894209780" />
     <state x="468" y="170" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603116976256" />
   </component>
 </project>
