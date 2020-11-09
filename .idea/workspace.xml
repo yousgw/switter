@@ -27,8 +27,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3eb3cd6e-ebe1-47db-8f84-e2fa38668036" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test-json/test-json.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/test-json/test-json.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test-json/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test-json/test.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:\Go" />
+  <component name="GOROOT" path="/usr/lib/go-1.15" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -69,7 +69,8 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/reverse" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/server" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,6 +81,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/server" />
       <recent name="C:\Users\you99\Documents\switter\src\reverse" />
     </key>
   </component>
@@ -125,10 +127,11 @@
     </state>
     <state x="813" y="186" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604894204546" />
     <state x="1220" y="287" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603116961543" />
-    <state x="284" y="0" key="SettingsEditor" timestamp="1604894209780">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="522" y="197" key="SettingsEditor" timestamp="1604899282227">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="284" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1604894209780" />
     <state x="468" y="170" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603116976256" />
+    <state x="522" y="197" width="1022" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1604899282227" />
   </component>
 </project>

@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"net/http"
 	"os"
 	"time"
 )
@@ -28,7 +29,7 @@ func write_json(data Data) {
 	}
 }
 
-func Output_data() {
+func Output_data(w http.ResponseWriter) {
 	var data Data
 	var now, iftime time.Time
 	var duration time.Duration
@@ -51,10 +52,10 @@ func Output_data() {
 			iftime = data.Time
 			iftime = iftime.AddDate(now.Year()-data.Time.Year(), 0, 0)
 			if now.Sub(iftime).Milliseconds() >= 0 { //1年以上前
-				fmt.Println(now.Year()-data.Time.Year(), "年前")
+				fmt.Fprint(w,now.Year()-data.Time.Year(), "年前")
 			} else {
 				if now.Year()-data.Time.Year()-1 != 0 { //ex)年は3ずれているが2年前
-					fmt.Println(now.Year()-data.Time.Year()-1, "年前")
+					fmt.Fprint(w,now.Year()-data.Time.Year()-1, "年前")
 				} else {
 					goto nextCase //1年以内
 				}
@@ -63,17 +64,17 @@ func Output_data() {
 		nextCase:
 			fallthrough
 		case duration.Hours() >= 24: //1日以上前
-			fmt.Println(data.Time.Month(), "月", data.Time.Day(), "日")
+			fmt.Fprint(w,data.Time.Month(), "月", data.Time.Day(), "日")
 		case duration.Hours() >= 1: //1時間以上前
-			fmt.Println(int(duration.Hours()), "時間前")
+			fmt.Fprint(w,int(duration.Hours()), "時間前")
 		case duration.Minutes() >= 1: //1分以上前
-			fmt.Println(int(duration.Minutes()), "分前")
+			fmt.Fprint(w,int(duration.Minutes()), "分前")
 		default:
-			fmt.Println("1分以内")
+			fmt.Fprint(w,"1分以内")
 		}
 
 		//fmt.Println(data.Time.Year(),"年",data.Time.Month(),"月",data.Time.Day(),"日",data.Time.Hour(),":",data.Time.Minute(),":",data.Time.Second())
-		fmt.Println(data.Detail, "\n")
+		fmt.Fprint(w,data.Detail, "\n")
 	}
 }
 
@@ -88,7 +89,7 @@ func main() {
 
 	write_json(data1)
 
-	Output_data()
+	//Output_data()
 
 	//fmt.Println(data1)
 

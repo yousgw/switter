@@ -8,7 +8,7 @@ import (
 
 func IndexHandler(w http.ResponseWriter,
 	r *http.Request) {
-	test_json.Output_data()
+	test_json.Output_data(w)
 	fmt.Fprint(w, "hello world")
 }
 
