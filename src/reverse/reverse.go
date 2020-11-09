@@ -18,21 +18,23 @@ func read()(detail []string){
 	string := bufio.NewScanner(origin)
 
 	for i :=1;string.Scan();i++{
-		fmt.Println(string.Text())
-		detail[i] = string.Text()
+		//fmt.Println(string.Text())
+		detail = append(detail, string.Text()+"\n")
+		//fmt.Println(detail[i-1])
 	}
 	return
 }
 
 func write(detail []string){
-	origin, err := os.Open("./test.json")
+	origin, err := os.OpenFile("./test.json",os.O_WRONLY,0600)
 	if err != nil {
 		log.Fatal(err)
 	}
 	defer origin.Close()
 
-	for i:=len(detail);i == 0;i--{
+	for i:=len(detail)-1;i != -1;i--{
 		_,err = origin.Write([]byte(detail[i]))
+		fmt.Print(detail[i])
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -41,19 +43,6 @@ func write(detail []string){
 
 func main(){
 
-	//write(read())
+	write(read())
 
-	//var detail []string
-	origin, err := os.Open("./test.json")
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer origin.Close()
-
-	string := bufio.NewScanner(origin)
-
-	for i :=1;string.Scan();i++{
-		fmt.Println(string.Text())	//デバッグ用
-		//detail[i] = string.Text()
-	}
 }
